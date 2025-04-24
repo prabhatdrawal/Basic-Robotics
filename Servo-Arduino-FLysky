@@ -1,0 +1,44 @@
+This basic demonstrates how to control servo motors using a FlySky FS-iA6/FS-iA6B receiver connected to an Arduino,
+making it suitable for RC car steering, robotic arms, or other hobby robotics applications.
+
+Hardware Used
+1.Arduino Uno / Nano / Mega
+2.FlySky FS-iA6B Receiver
+3.FlySky FS-i6 Transmitter
+4.Servo Motors (SG90 / MG996R)
+5.Jumper wires & power supply
+
+Circuit Connection
+ Receiver Signal Pin ( channel 1-6 - choosen according to the need ) - Pin 2
+ Servo signal pin  - Pin 9
+
+
+Code:
+
+#include<Servo.h>
+
+Servo test_servo;
+int receiver_pin = 2;
+int servo_pin = 9;
+
+void setup()
+{
+  pinMode(receiver_pin,INPUT);
+  test_servo.attach(servo_pin);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  int pwmValue = pulseIn(receiver_pin,HIGH,25000);
+  if(pwmValue>1000 && pwmValue < 20000)
+  {
+    int servoangle = map(pwmValue,1000,2000,0,180);
+    test_servo.write(servoangle);
+    Serial.println(servoangle);
+  }
+}
+
+
+
+
