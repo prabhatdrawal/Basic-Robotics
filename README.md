@@ -10,6 +10,8 @@ The goal of most robotics is to design machines that can help and assist humans.
 
 ## Mechanical aspect
  frame, form or shape designed to achieve a particular task. For example, a robot designed to travel across heavy dirt or mud might use caterpillar tracks. Origami inspired robots can sense and analyze in extreme environments.[2] The mechanical aspect of the robot is mostly the creator's solution to completing the assigned task and dealing with the physics of the environment around it. Form follows function.
+ <img width="504" height="387" alt="ur5e_robot_in_its_zero_position_forward_kinematics_using_screw_theory_d36b9c6b55" src="https://github.com/user-attachments/assets/90fc83c5-26c4-44b1-85b6-e8a2548e24a5" />
+
 
 ## Electrical aspect
 Electrical components that power and control the machinery. For example, the robot with caterpillar tracks would need some kind of power to move the tracker treads. That power comes in the form of electricity, which will have to travel through a wire and originate from a battery, a basic electrical circuit. Even petrol-powered machines that get their power mainly from petrol still require an electric current to start the combustion process which is why most petrol-powered machines like cars, have batteries. The electrical aspect of robots is used for movement (through motors), sensing (where electrical signals are used to measure things like heat, sound, position, and energy status), and operation (robots need some level of electrical energy supplied to their motors and sensors in order to activate and perform basic operations)
