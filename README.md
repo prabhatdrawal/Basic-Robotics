@@ -25,5 +25,6 @@ Software. A program is how a robot decides when or how to do something. In the c
 
 <img width="3000" height="2015" alt="rxezjyf4ojx41" src="https://github.com/user-attachments/assets/816beb99-744f-4864-835d-157587977e6d" />
 
-![images](https://github.com/user-attachments/assets/7f02f5a0-0762-4489-950f-d882788566e6)     
+
+![images](https://github.com/user-attachments/assets/7f02f5a0-0762-4489-950f-d882788566e6)     <img width="436" height="115" alt="images (1)" src="https://github.com/user-attachments/assets/3a7656e4-9d12-4658-9b27-43671ad477d2" />
 
